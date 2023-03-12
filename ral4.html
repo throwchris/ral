@@ -22,12 +22,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </head>
 <body>
 
-     <!--  <audio controls autoplay>
-        <p class="w3-right-align w3-text-orange" style="opacity: 0.5">pp. 3</p>
-        <p class="w3-right-align w3-text-gray" style="opacity: 0.5">pp. 2</p>
-  <source src="mol7.mp3" type="audio/mpeg">
- </audio>
-    -->
+     
 
     <audio id="myAudio" src="ral4.mp3" preload="auto">
     </audio>
@@ -41,7 +36,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
    
     <a href="index.html"><i class=" w3-btn w3-bar-item w3-margin-center material-icons " style="font-size:36px; color: #ffd700 ;" >home</i></a>
     <a href="ral3.html"><i class=' fas fa-arrow-left w3-btn w3-bar-item w3-margin-center' style='font-size:36px; color: #ffd700 ;'></i></a>
-    <i class="w3-btn w3-bar-item w3-margin-center w3-left material-icons w3-text-white" style="font-size:36px" onclick="location.href='/treasure/index.html';">stars</i>  
+      
     <!--<i class='fas fa-arrow-right w3-btn w3-bar-item w3-margin-center' style='font-size:36px'></i>-->
     <!--<a><i class=" w3-btn w3-bar-item w3-margin-center w3-right material-icons" style="font-size:36px" onClick="togglePlay()">headset</i></a> -->
     <i class="w3-btn w3-bar-item w3-margin-center w3-right material-icons " style="font-size:36px;color: #ffd700 ; " onclick="myFunction4()">find_in_page</i>
@@ -70,22 +65,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
 </div>
 
-<!-- Header 
-<header class="w3-container w3-center" style="padding:125px 16px; background-image: url('barn.png');">
-  <p class="w3-margin" style="color: #ffd700 ; font-size: 48px;">Resurrection and Life</p>
-  <p class="w3-xlarge" style="color: #ffd700 ;">Rev. Rose M. Aluli</p>
-   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> 
-</header>
--->
+
 <!-- First Grid -->
 
 <div id="font" class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; font-size: 16px; " id="band">
 
-  
-  
-  
-
-   
     
   <p class="w3-justify"><strong style="color: #ffd700">Hebrews 11:16</strong> <strong class="w3-text-light-green">But now they desire a better country, that is, an heavenly:</strong>  A spiritual place. <strong class="w3-text-light-green">wherefore God is not 
     ashamed to be called their God: for he hath prepared for them a city.</strong>  Amen, a habitation in the Spirit where there is no death, where there is no sorrow, where there is no 
@@ -169,20 +153,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       yet shall he live: and whosoever liveth and believeth in me shall never die.  Believest thou this? </span></strong> </p>
 
 
-    <p class="w3-justify"></p>
-    
-    <p class="w3-justify"></p>
-
-    <p class="w3-justify"></p>
-
-    <p class="w3-justify"></p>
-
-    <p class="w3-justify"></p>
-    
-    <p class="w3-justify"></p>
-
-    <p class="w3-justify"></p>
-
+   
 
     <p class="w3-right-align" style="opacity: 0.5">John 11:25-26</p>
 
@@ -191,49 +162,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
    
     <!----------------------------------------------------------------------------------------------------------- PAGE 22 END ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->  
 
-    <p class="w3-right-align" style="opacity: 0.5"></p>
-
-    <p class="w3-right-align" style="opacity: 0.5"></p>
-
-    <p class="w3-right-align" style="opacity: 0.5"></p>
-
-    <p class="w3-right-align" style="opacity: 0.5"></p>
-
-    <p class="w3-right-align" style="opacity: 0.5"></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img src="" alt="" srcset="">
-
-
+    
 
 </div>
 
 <div class="w3-bottom" style="background-image: url('barn.png');" >
   <div class="w3-bar w3-card w3-center w3-xlarge">
     
-    <audio class="w3-padding w3-xxlarge" controls>
-      <source src="ral4.mp3" type="audio/mpeg">
-     </audio>
-   
+    <audio src="ral4.mp3"></audio>
+      <i class="fas fa-play fa-fw w3-text-red" id="playBtn"></i>
+      <i class="fas fa-pause fa-fw w3-text-red" id="pauseBtn"></i>
+      <i class="fas fa-backward fa-fw w3-text-red" id="rewindBtn"></i>
+      <i class="fas fa-forward fa-fw w3-text-red" id="fastForwardBtn"></i>
+      <span id="currentTime">00:00</span>
+      <span id="duration">00:00</span>
+      
     
-</div>
-</div>
+  </div>
+  </div> 
+  <script src="script.js"></script>
 
     
 
